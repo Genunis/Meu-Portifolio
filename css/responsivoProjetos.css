@@ -1,0 +1,7 @@
+@media (max-width: 768px) {
+    .project-card {
+    width: calc(66.66% - 20px);
+    margin-bottom: 40px;
+    margin-left: 20%;    
+}
+}
