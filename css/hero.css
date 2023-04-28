@@ -1,0 +1,22 @@
+/* Estilos do hero */
+.hero {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    
+  }
+  
+
+  
+
+  

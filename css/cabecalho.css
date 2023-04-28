@@ -1,0 +1,35 @@
+/* Estilos do cabeçalho */
+ 
+.hero {
+    background-color: #4E5D6C;
+    color: #FFFFFF;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    text-align: center;
+  }
+  
+  .hero-text {
+    font-size: 48px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px #000;
+  }
+  
+  .btn {
+    background-color: #D8C3A5;
+    color: #1B262C;
+    font-weight: bold;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+  }
+  
+  .btn:hover {
+    background-color: #7F8D8C;
+  }

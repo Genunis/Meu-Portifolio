@@ -1,0 +1,24 @@
+/* Estilos da seção "Contato" */
+  
+footer {
+    background-color: #1B262C;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  footer a {
+    color: #D8C3A5;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #fff;
+  }
+  
+  

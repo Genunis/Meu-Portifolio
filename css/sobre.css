@@ -1,0 +1,56 @@
+ /* Estilos da seção Sobre */
+ #sobre {
+    background-color: #F2F2F2;
+    padding: 80px 0;
+  }
+  
+  #sobre h2 {
+    font-size: 36px;
+    color: #1B262C;
+    margin-bottom: 20px;
+  }
+  
+  #sobre p {
+    font-size: 18px;
+    color: #7F8D8C;
+    line-height: 1.5;
+    margin-bottom: 40px;
+  }
+  
+  #sobre .foto {
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url('foto.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 40px;
+  }
+  
+  #sobre .lista-habilidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  
+  #sobre .lista-habilidades li {
+    background-color: #FFFFFF;
+    border: 1px solid #D8C3A5;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #7F8D8C;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #sobre .lista-habilidades li:last-child {
+    margin-right: 0;
+  }
+ 

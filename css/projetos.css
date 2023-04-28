@@ -1,0 +1,111 @@
+.projects {
+  background-color: #f8f8f8;
+  padding: 80px 0;
+}
+
+.projects h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.project-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  width: calc(33.33% - 20px);
+  margin-bottom: 40px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+#imagens {
+  padding: 5%;
+  width: 90%;
+  height: auto;
+  object-fit: cover;
+}
+
+.project-card h3 {
+  font-size: 24px;
+  margin: 20px;
+  text-align: center;
+}
+
+.project-card p {
+  font-size: 18px;
+  margin: 0 20px 20px 10px;
+  text-align: justify;
+}
+
+
+.project-card footer {
+  position: absolute ;
+  bottom: 0px;
+  text-align: center;
+  background-color: #4e5d6c;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  transition: background-color 0.2s ease-in-out;
+  width: 100%;
+  margin-bottom: 0%;
+ 
+}
+.tech{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px 20px ;
+  margin-bottom: 50px;
+  
+}
+
+
+
+.project-tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  
+}
+
+.project-tech-list li {
+  font-size: 14px;
+  margin-right: 16px;
+  margin-bottom: 8px;
+  color: #4e5d6c;
+  padding: 0%;
+}
+
+
+.project-card  a {
+  bottom: 0px;
+  text-align: center;
+  background-color: #4e5d6c;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  transition: background-color 0.2s ease-in-out;
+  width: 100%;
+}
+
+.project-card a:hover {
+  background-color: #1b262c;
+}
+
+.project-wrapper {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+

@@ -1,0 +1,59 @@
+/* Estilos do menu de navegação */
+
+.navbar {
+  /* estilos padrão do navbar */
+  position: fixed;
+  background-color: #ffffff;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: top 0.3s;
+}
+
+.navbar.hidden {
+  /* estilos do navbar quando escondido */
+  top: -100px;
+}
+
+nav {
+    
+    height: 90px;
+  }
+  
+  .nav-container {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0 20px;
+  }
+  
+  
+  .links-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .links-container a {
+    color: #D8C3A5;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px 0;
+  }
+  
+  .links-container a:first-child {
+
+    margin-left: 0;
+  }
+  
+  .links-container a:hover {
+    border-bottom: 3px solid #D8C3A5;
+  }
+  
+
+  

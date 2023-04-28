@@ -1,0 +1,50 @@
+@import url(nav.css);
+@import url(logo.css);
+@import url(cabecalho.css);
+@import url(sobre.css);
+@import url(projetos.css);
+@import url(contato.css);
+@import url(rodapé.css);
+@import url(tecno.css);
+/* Estilos gerais */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+h4 {
+    font-size: 1.25rem;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}

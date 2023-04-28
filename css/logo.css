@@ -1,0 +1,23 @@
+.logo {
+    display: inline-block;
+    
+    font-size: 40px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background: linear-gradient(to bottom right, #1B262C, #4E5D6C, #7F8D8C, #D8C3A5);
+    clip-path: polygon(40% 0%, 60% 0%, 100% 30%, 100% 70%, 60% 100%, 40% 100%, 0% 70%, 0% 30%);
+  }
+  
+ 
+  .logo span {
+    font-size: 36px;
+    font-weight: bold;
+
+
+  }
+  
+  
