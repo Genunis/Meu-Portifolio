@@ -18,6 +18,15 @@ menuToggle.addEventListener('click', function() {
   }
 });
 
+const navLinks = document.querySelectorAll('.links-container a');
 
-
-
+navLinks.forEach(function(link) {
+  link.addEventListener('click', function() {
+    menuToggle.classList.remove('active');
+    menu.classList.remove('active');
+    navbar.classList.remove('active');
+    logo.classList.remove('active');
+    nav_container.classList.remove('active');
+    document.body.style.overflow = 'auto';
+  });
+});
